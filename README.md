@@ -1,4 +1,4 @@
-# Sales Prediction App
+# Sales Prediction App(SARIMA)
 
 This is a simple web-based application for predicting sales using a SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous regressors) model. The app is built with **FastAPI** on the backend, and the frontend is a basic HTML form that takes user input for various features and returns a predicted sales value.
 
