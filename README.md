@@ -30,19 +30,20 @@ This is a simple web-based application for predicting sales using a SARIMAX (Sea
    ```bash
    git clone https://github.com/yashaaryan/StoreSalesModelXGSarima.git
 
-2. Create Viirtual environments   
-python -m venv myenv
-
-source myenv/bin/activate   # On Windows: myenv\Scripts\activate
+2. Create Viirtual environments
+   ```bash
+   python -m venv myenv
+    ```bash
+   source myenv/bin/activate   # On Windows: myenv\Scripts\activate
 
 4. Download the dataset from  https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
 5. Replace the data file path in app.py according to your local file path
 6. install dependencies
-
+     ```bash
     pip install -r requirements.txt
 
 8. Run fastapi server
-   
+   ```bash
    uvicorn app:app --reload
    
 9. Open your browser and goto  http://127.0.0.1:8000/static/index.html or add /static/index.html to your localhost url.
