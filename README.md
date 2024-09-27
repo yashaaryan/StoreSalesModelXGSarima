@@ -33,8 +33,8 @@ This is a simple web-based application for predicting sales using a SARIMAX (Sea
 2. Create Viirtual environments
    ```bash
    python -m venv myenv
-    ```bash
-   source myenv/bin/activate   # On Windows: myenv\Scripts\activate
+   source myenv/bin/activate
+    # On Windows: myenv\Scripts\activate
 
 4. Download the dataset from  https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
 5. Replace the data file path in app.py according to your local file path
